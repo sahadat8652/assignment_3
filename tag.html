@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="html tutorials">
+		<meta name="keywords" content="html, css">
+		<meta name="author" content="sahadat hossain">
+		<meta http-equiv="refresh" content="30">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>sahadat</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="layout.html">Layout</a>
+				<a href="practice.html">Block</a>
+				<a href="inline.html">Inline</a>
+				<a href="#">Tag</a>
+			</nav>
+		</div>
+		<div class="tag">
+			<main>
+				<h1>main element</h1>
+				<h2>Lorem ipsum</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+				<h2>Lorem ipsum</h2>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</main>	
+		</div>
+		<div class="tag">
+			<h1>mark element</h1>
+			<p>Lorem Ipsum is simply <mark>dummy</mark> text.</p>	
+		</div>
+		<div class="tag">
+			<h1>meter element</h1>
+			<label for="html">HTML</label>
+			<meter id="html" value="6" min="0" max="10">6 out of 10</meter>
+			<label for="css">CSS</label>
+			<meter id="css" value="0.8">80%</meter>
+		</div>
+		<div class="tag">
+			<h1>object element</h1>
+			<object data="index.html" width="400" height="400"></object>
+			<object data="images/tech.jpg"></object>
+		</div>
+		<div class="tag">
+			<h1>ol element</h1>
+			<ol type="a" start="4">
+				<li>mango</li>
+				<li>banana</li>
+				<li>orange</li>
+			</ol>
+		</div>
+		<div class="tag">
+			<h1>select, option and optgroup element</h1>
+			<label for="laptop">Choose a laptop:</label>	
+			<select name="laptop" id="laptop">
+				<optgroup label="asus laptop">
+					<option value="asus core i3">asus core i3</option>
+					<option disabled value="asus core i5">asus core i5</option >
+					<option value="asus core i7">asus core i7</option>
+				</optgroup>
+				<optgroup label="hp laptop">
+					<option value="hp core i3">hp core i3</option>
+					<option selected value="hp core i5">hp core i5</option>
+					<option value="hp core i7">hp core i7</option>
+				</optgroup>
+			</select>
+			<input type="submit" value="Submit">
+		</div>
+		<div class="tag">
+			<h1>p element</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+		</div>
+		<div class="tag">
+			<h1>param element</h1>
+			<object data="audio/bird.mp3">
+				<param name="controls" value="true">
+			</object>
+		</div>
+		<div class="tag">
+			<h1>picture element and source tag</h1>
+			<picture>
+				<source media="(min-width:700px)" srcset="images/tech.jpg">
+				<source media="(min-width:600px)" srcset="images/color.jpg">
+				<img src="images/bulb.jpg" alt="blub">
+			</picture>
+		</div>
+		<div class="tag">
+			<h1>pre element</h1>
+			<pre>
+				Lorem Ipsum is simply dummy text
+				the printing and typesetting industry
+				Lorem Ipsum has been the industry's standard dummy
+			</pre>
+			<pre class="preformatted">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</pre>
+		</div>
+		<div class="tag">
+			<h1>progress element</h1>
+			<label for="file">Downloading progress:</label>
+			<progress id="file" value="40" max="100">40%</progress>
+		</div>
+		<div class="tag">
+			<h1>q element</h1>
+			<p>Lorem <q>Ipsum is simply dummy</q> text of the printing and typesetting industry.</p>
+		</div>
+		<div class="tag">
+			<h1>s element</h1>
+			<p><s>This is an apple.</s></p>
+		</div>
+		<div class="tag">
+			<h1>samp element</h1>
+			<p><samp>File not found.<br>Press f1 to continue.</samp></p>
+		</div>
+		<div class="tag">
+			<h1>script element</h1>
+			<p id="ok"></p>
+			<script>
+				document.getElementById('ok').innerHTML = "Hello Javascript!";
+			</script>
+		</div>
+		
+		<div class="tag">
+			<h1>section element</h1>
+			<section>
+			<h2>Lorem ipsum</h2>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</section>
+		</div>
+		<div class="tag">
+			<h1>small element</h1>
+			<p><small>File not found.</small></p>
+		</div>
+		<div class="tag">
+			<h1>span element</h1>
+			<p><span style="color:red;">Lorem</span> Ipsum is simply dummy text.</p>
+		</div>
+		<div class="tag">
+			<h1>strong element</h1>
+			<p><strong>Lorem</strong> Ipsum is simply dummy text.</p>
+		</div>
+		<div class="tag">
+			<h1>sub element</h1>
+			<p>H<sub>2</sub>O</p>
+		</div>
+		<div class="tag">
+			<h1>summary element</h1>
+			<details>
+				<summary>Lorem Ipsum</summary>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+			</details>
+		</div>
+		<div class="tag">
+			<h1>sup element</h1>
+			<p>a<sup>2</sup>+b<sup>2</sup></p>
+		</div>
+		<div class="tag">
+			<h1>svg element</h1>
+			<svg width="100" height="100">
+				<circle cx="50" cy="50" r="40" stroke="red" stroke-width="5" fill="green" />
+			</svg>
+			<svg width="100" height="100">
+				<rect x="10" y="10" rx="5" width="80" height="80" stroke="red" stroke-width="5" fill="green" />
+			</svg>
+			<svg width="400" height="100" style="border: 2px solid red;">
+				<ellipse cx="200" cy="50" rx="180" ry="40" fill="yellow"/>
+				<ellipse cx="190" cy="50" rx="160" ry="35" fill="white"/>
+			</svg>
+			<svg width="300" height="100">
+				<line x1="0" y1="0" x2="220" y2="70" stroke="red" />
+			</svg>
+		</div>
+		<div class="tag">
+			<h1>tble, tr, th, td, thead, tbody, tfoot element</h1>
+			<table>
+				<caption>This is table</caption>
+				<thead>
+					<tr>
+						<th>Name</th>
+						<th>Salary</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>A</td>
+						<td>20</td>
+					</tr>
+					<tr>
+						<td>B</td>
+						<td>30</td>
+					</tr>
+					<tr>
+						<td>c</td>
+						<td>40</td>
+					</tr>
+				</tbody>
+				<tfoot>
+					<tr>
+						<td>total</td>
+						<td>90</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+		<div class="tag">
+			<h1>u element</h1>
+			<p>Lorem <u>Ipsum</u> is simply dummy text</p>
+		</div>
+		<div class="tag">
+			<h1>ul element</h1>
+			<ul>
+				<li>Mango</li>
+				<li>Orange</li>
+			</ul>
+		</div>
+		<div class="tag">
+			<h1>textarea element</h1>
+			<h2>Comments</h2>
+			<textarea rows="15" cols="45"></textarea>
+		</div>
+		<div class="tag">
+			<h1>time element</h1>
+			<p>open from <time>10:00</time> to <time>20:00</time> everyday.</p>
+			<p>I have an important meeting on <time datetime="2021-05-10 20:00">sunday.</time></p>
+		</div>
+		<div class="tag">
+			<h1>var element</h1>
+			<p>1/4 x <var>b</var> x <var>h</var>, where <var>b</var> is the base, and <var>h</var> is the height.</p>
+		</div>
+		<div class="tag">
+			<h1>video element</h1>
+			<video controls>
+				<source src="video/place.mp4" type="video/mp4">
+			</video>
+		</div>
+		<div class="tag">
+			<h1>video element</h1>
+			<p>wordwordwordwordwordwordwordwordwordwordwordwordwordwordwordwordwordwordwordword<wbr>wordwordwordwordwordwordwordwordwordwordwordword<wbr>breakbreakbreakbreakbreakbreakbreakbreakbreakbreakbreakbreak</p>
+		</div>
+	</body>
+</html>
+	

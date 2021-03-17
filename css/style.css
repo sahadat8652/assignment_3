@@ -1,0 +1,111 @@
+.display{
+	color: red;
+}
+.inline h1{
+	display: inline;
+}
+.block a{
+	display: block;
+}
+.inlinedisplay h1{
+	display: inline-block;
+}
+.box{
+	width: 120px;
+	height: 120px;
+}
+.box1{
+	margin: 20px 40px 30px 50px;
+	padding: 20px 40px 30px 50px;
+	background-color: red;
+}
+.box2{
+	background-color: green;
+	margin: 30px 40px 20px;
+	padding: 30px 40px 20px;
+}
+.box3{
+	background-color: yellow;
+	margin: 20px 40px;
+	padding: 20px 40px;
+}
+.box4{
+	background-color: blue;
+	margin: 30px;
+	padding: 30px;
+}
+.box5{
+	background-color: orange;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	margin-left: 30px;
+	padding-top: 30px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 30px;
+}
+.header{
+	min-height: 50px;
+	width: 100%;
+	background-color: black;
+	text-align: right;
+	border: 3px dotted lime;
+	border-radius: 5px;
+}
+nav a{
+	text-decoration: none;
+	font-size: 25px;
+	display: inline-block;
+	margin: 10px 25px;
+	padding: 5px;
+	color: white;
+}
+.container{
+	overflow: hidden;
+}
+.article{
+	float: left;
+	min-height: 300px;
+	background-color: lime;
+	width: 55%;
+}
+.main{
+	float: right;
+	min-height: 300px;
+	background-color: yellow;
+	width: 45%;
+}
+.blog{
+	float: left;
+	background-color: green;
+	width: 33.33%;
+	height: 300px;
+}
+.content{
+	float: left;
+	background-color: blue;
+	width: 33.33%;
+	height: 300px;
+}
+.about{
+	float: left;
+	background-color: pink;
+	width: 33.33%;
+	height: 300px;
+}
+.footer{
+	min-height: 100px;
+	width: 100%;
+	background-color: yellow;
+}
+.tag{
+	border: 2px solid orange;
+	border-radius: 5px;
+	margin: 5px;
+	padding: 5px;
+}
+.preformatted{
+	width: 200px;
+	overflow: auto;
+}
